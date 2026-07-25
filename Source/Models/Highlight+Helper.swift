@@ -90,7 +90,7 @@ extension Highlight {
         do {
             let realm = try Realm(configuration: readerConfig.realmConfiguration)
             realm.beginWrite()
-            realm.add(self, update: true)
+            realm.add(self, update: .all)
             try realm.commitWrite()
             completion?(nil)
         } catch let error as NSError {
@@ -109,7 +109,6 @@ extension Highlight {
             }
             try realm.write {
                 realm.delete(self)
-                try realm.commitWrite()
             }
         } catch let error as NSError {
             print("Error on remove highlight: \(error)")
