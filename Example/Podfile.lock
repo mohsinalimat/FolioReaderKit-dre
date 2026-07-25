@@ -4,7 +4,8 @@ PODS:
     - AEXML
     - FontBlaster
     - MenuItemKit
-    - RealmSwift
+    - Realm (= 20.0.4)
+    - RealmSwift (= 20.0.4)
     - SSZipArchive
     - ZFDragableModalTransition
   - FontBlaster (5.3.0)
@@ -42,7 +43,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AEXML: 5ff2a4695529348cda96b8b872cf73212ad050d7
-  FolioReaderKit: ad4718c5b9faad35f834a75dfe159e278c228201
+  FolioReaderKit: 0af584c814dbfd9af0a2bf7ad9cf915aae079578
   FontBlaster: 941f89d735a29e1c7d24e7a90d3e16939ef1609a
   MenuItemKit: 1459920e984d823e1bcc858b7a964f94e6bfa0f6
   Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
@@ -52,6 +53,6 @@ SPEC CHECKSUMS:
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   ZFDragableModalTransition: 0d294eaaba6edfcb9839595de765f9ca06a4b524
 
-PODFILE CHECKSUM: 79991891bee7ac102736c484760af0914e273722
+PODFILE CHECKSUM: 6010bdb438f50940d125b04b701a2072157c7a86
 
 COCOAPODS: 1.16.2
